@@ -18,6 +18,11 @@ h3{
     margin: 2em;
     padding: 1em;
 }
+h5{
+    background-color: whitesmoke;
+    max-height: 1em;
+    padding: 0.3rem;
+}
 
 .medium_pizza{
     background-color: #F48C06;
