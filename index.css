@@ -1,0 +1,37 @@
+body{
+    background-color: #370617;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pizza{
+    padding: 1em;
+    margin: 1.5em;
+    border: 0.2em solid;
+    border-radius: 1.7em;
+
+}
+h2{
+    text-align: center;
+}
+
+.medium_pizza{
+    background-color: #F48C06;
+    
+
+}
+
+.large_pizza{
+    background-color: #D00000;
+    
+}
+
+.small_pizza{
+    background-color: #FFBA08;
+  
+
+}
+
+.contact{
+background-color: #9D0208;
+
+}
