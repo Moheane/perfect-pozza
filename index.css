@@ -13,6 +13,11 @@ body{
 h2{
     text-align: center;
 }
+h3{
+    background-color: #F48C06;
+    margin: 2em;
+    padding: 1em;
+}
 
 .medium_pizza{
     background-color: #F48C06;
@@ -35,3 +40,59 @@ h2{
 background-color: #9D0208;
 
 }
+
+
+
+
+img{
+    width: 50%;
+    height: auto;
+}
+
+.pizza_meta{
+    display: flex;
+    flex-direction: row;
+    }
+    
+.contact-info{
+    padding: 1em;
+    margin: 2em;
+    
+    text-align: center;
+    
+}
+a{
+    text-decoration: none;
+    color: #FFBA08;
+}
+p{
+    color: #D00000 ;
+}
+.contact{
+    
+    display: block;
+    margin: 2em;
+   
+} 
+    
+@media only screen and (min-width: 768px) {
+    /* For mobile phones: */
+    .pizza_container{
+        display: flex;
+    }
+    .pizza{
+        display: block;
+    }
+    .contact{
+        display: flex;
+        margin: 1em;
+       
+    }   
+  
+.pizza_meta{
+    display: block;
+    flex-direction: row;
+    }
+   
+  }
+  
