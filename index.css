@@ -61,12 +61,10 @@ background-color: #9D0208;
     height: auto;
 }
 
-
-
 img{
-    width: 50%;
-    height: auto;
+    margin: 1em;
 }
+
 
 .pizza_meta{
     display: flex;
@@ -87,18 +85,33 @@ a{
 p{
     color: #D00000 ;
 }
+.desc{
+    padding: 0.5em;
+    margin: 0.5em;
+}
 .contact{
     
     display: block;
     margin: 2em;
    
 } 
+.desc_meta
+{
+    display: block;
+   
+}
+
     
 @media only screen and (min-width: 768px) {
     /* For mobile phones: */
     .pizza_container{
         display: flex;
     }
+    .desc_meta
+{
+    display: block;
+   
+}
     .pizza{
         display: block;
     }
